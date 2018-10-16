@@ -9,7 +9,7 @@ html, body {
 .b-page {
     display: block;
 
-    width: 360px;
+    width: auto;
     padding: 20px;
 
     margin: 20px auto 0 auto;
