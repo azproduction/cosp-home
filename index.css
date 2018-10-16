@@ -72,7 +72,7 @@ html, body {
 }
 
 .b-content__link-button {
-    display: inline-block;
+    display: block;
 
     line-height: 24px;
 
@@ -80,7 +80,6 @@ html, body {
     color: #FFFFFF;
     background-color: #555555;
     padding: 15px;
-    width: 100%;
     text-align: center;
     font-size: 24px;
 }
