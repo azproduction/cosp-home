@@ -94,6 +94,10 @@ html, body {
     background-color: #1dcaff;
 }
 
+.b-content__link-button_ko-fi {
+    background-color: #ff5f5f;
+}
+
 .b-content__link_no-icon {
     margin-left: 38px;
 }
