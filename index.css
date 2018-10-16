@@ -73,13 +73,11 @@ html, body {
 
 .b-content__link-button {
     display: block;
-
     line-height: 24px;
-
     text-decoration: none;
     color: #FFFFFF;
     background-color: #555555;
-    padding: 15px;
+    padding: 15px 0 15px 0;
     text-align: center;
     font-size: 24px;
 }
