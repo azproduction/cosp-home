@@ -98,6 +98,10 @@ html, body {
     background-color: #ff5f5f;
 }
 
+.b-content__link-button_kit {
+    background-color: #10c694;
+}
+
 .b-content__link_no-icon {
     margin-left: 38px;
 }
