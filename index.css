@@ -102,6 +102,10 @@ html, body {
     background-color: #10c694;
 }
 
+.b-content__link-button_prints {
+    background-color: #ff0967;
+}
+
 .b-content__link_no-icon {
     margin-left: 38px;
 }
