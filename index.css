@@ -90,6 +90,10 @@ html, body {
     background-color: #8a3ab9;
 }
 
+.b-content__link-button_tiktok {
+    background-color: #000000;
+}
+
 .b-content__link-button_twitter {
     background-color: #1dcaff;
 }
