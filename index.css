@@ -94,6 +94,10 @@ html, body {
     background-color: #000000;
 }
 
+.b-content__link-button_ngl {
+    background: linear-gradient(#ef2675, #fc7e1f);
+}
+
 .b-content__link-button_twitter {
     background-color: #1dcaff;
 }
