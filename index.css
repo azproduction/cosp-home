@@ -111,6 +111,10 @@ body {
     background-color: #222;
 }
 
+.b-content__link-button_threads {
+    background-color: #222;
+}
+
 .b-content__link-button_ngl {
     background: linear-gradient(#ef2675, #fc7e1f);
 }
@@ -140,7 +144,5 @@ body {
 }
 
 .b-content__item svg {
-    margin-right: 10px;
-
     vertical-align: bottom;
 }
