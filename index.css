@@ -103,6 +103,14 @@ body {
     background-color: #3B5998;
 }
 
+.b-content__link-button_mastodon {
+    background-color: #6364f6;
+}
+
+.b-content__link-button_bluesky {
+    background-color: #3c81f6;
+}
+
 .b-content__link-button_instagram {
     background-color: #8a3ab9;
 }
