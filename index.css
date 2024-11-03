@@ -143,6 +143,16 @@ body {
     background-color: #ff0967;
 }
 
+.b-content__link-button_calendar {
+    background-image: linear-gradient(to right, #ff0967 0%, #ffc300  51%, #ff0967  100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+
+.b-content__link-button_calendar:hover {
+    background-position: right center;
+}
+
 .b-content__link_no-icon {
     margin-left: 38px;
 }
