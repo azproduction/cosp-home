@@ -143,16 +143,6 @@ body {
     background-color: #ff0967;
 }
 
-.b-content__link-button_calendar {
-    background-image: linear-gradient(to right, #ff0967 0%, #ffc300  51%, #ff0967  100%);
-    transition: 0.5s;
-    background-size: 200% auto;
-}
-
-.b-content__link-button_calendar:hover {
-    background-position: right center;
-}
-
 .b-content__link_no-icon {
     margin-left: 38px;
 }
@@ -163,4 +153,39 @@ body {
 
 .b-content__item svg {
     vertical-align: bottom;
+}
+
+.b-content__item_calendar {
+    text-align: center;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.b-content__calendar {
+    display: inline-block;
+    width: 80%;
+    border-radius: 4px;
+    transition: 0.5s transform;
+}
+
+.b-content__calendar:hover {
+    transform: scale(1.1);
+    animation-play-state: paused;
+}
+
+.b-content__link-button_calendar_image {
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    transform: translate(-50%, -100px);
+    border-radius: 32px;
+    background-image: linear-gradient(to right, #ff0967 0%, #ffc300  51%, #ff0967  100%);
+    background-size: 200% auto;
+    box-shadow: 0px 10px 10px -6px rgba(0, 0, 0, 100);
+    pointer-events: none;
+}
+
+.b-content__info {
+    margin: 8px 0;
+    opacity: 0.5;
 }
